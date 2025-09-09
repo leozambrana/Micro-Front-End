@@ -1,0 +1,9 @@
+.btn {
+    margin: 12px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
