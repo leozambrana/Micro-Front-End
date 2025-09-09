@@ -1,0 +1,28 @@
+# Root .gitignore for Micro-Front-End monorepo
+# Ignore node_modules in all packages and root
+node_modules/
+packages/*/node_modules/
+
+# Ignore build outputs (commonly used in Vite/React projects)
+dist/
+packages/*/dist/
+
+# Ignore environment files
+.env
+packages/*/.env
+
+# Ignore log files
+*.log
+packages/*/*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Ignore TypeScript build outputs
+*.tsbuildinfo
+packages/*/*.tsbuildinfo
